@@ -1,0 +1,20 @@
+disease, remedy
+BellPepper_BacterialSpot, Use organic compost or calcium and potassium rich fertilizers and can also use fertilizers with less nitrogen
+BellPepper_Healthy, Use disease free seed and remove dead leaves
+Maize_CercosporaLeafSpot, Use organic compost or fertilizers with micronutrients like zinc and manganese and fertilizers with calcium and silicon
+Maize_CommonRust, Use mancozeb fertilizer which is made up of maneb and zinc
+Maize_Healthy, Dry seeds before sowing to reduce moisture content
+Maize_NorthernLeafBlight, Avoid excessive nitrogen in fertilizers and usage of calcium amendments
+Potato_EarlyBlight, Spray copper sulphate or chlorothalonil and give additional nitrogen and low levels of phosphorous
+Potato_Healthy, Fertilizers with moderate nitrogen can be used and phosphorous and potassium rich fertilizers can also be used
+Potato_LateBlight, Potassium rich fertilizers can be used also calcium or lime rich fertilizers can be used
+Rice_BrownSpot, Potassium rich fertilizers can be used and also compost or manure can be used
+Rice_Healthy, Potassium and phosphorous and silicon rich fertilizers can be used also iron znd zinc and manganese and copper fertilizers can be used but in minimum quantities since they are micronutrients
+Rice_Hispa, Avoid excessive nitrogen and use potassiumrich phosphorous rich fertilizers and at times allow natural predators
+Rice_LeafBlast, Avoid excessive nitrogen and irrigate well also use adequate amounts of potassium rich fertilizers
+Tomato_BacterialSpot, Remove the infected parts and bury or burn them and use copper based sprays and ensure proper watering 
+Tomato_EarlyBlight, Remove the infected parts but not during windy or wet conditions and apply a neem solution or use an organic copper fungicide or a baking soda spray
+Tomato_Healthy, Avoid overhead irrigation and have a good spacing between crops for good airflow and add ferilizers but avoid over-fertilizing
+Tomato_LateBlight, Use fungicides like copper or sulphur or the safest option is to use neem oil
+Tomato_SeptoriaLeafSpot, Remove and dispose all diseased leaves and in severe conditions we can apply fungicides such as copper or neems
+Tomato_YellowLeafCurlVirus, Dispose the infected plant and treat for whiteflies by spraying a hard stream of water directly on the under sides of leaves

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Vrksha</title>
+    <link rel="icon" type="image/jpg" href="{{ url_for('static', filename='leaves new.jpg') }}" />
+    <!--<link rel="icon" type="image/jpg" href="../Images/leaves new.jpg" />-->
+  
+  <style>
+    body {
+      background-image: url("../static/Background.jpg");
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+
+    img {
+      border-radius: 25px;
+    }
+
+    div {
+      background-color: palegreen;
+      width: fit-content;
+      border: 10px black;
+      border-radius: 10px;
+      padding: 20px 20px 20px 20px;
+      margin: 5px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      text-align: center;
+      opacity: 0.8;
+      font-weight: bold;
+    }
+
+    h1 {
+      padding-top: 10px;
+      padding-bottom: 50px;
+      font-family: "Lucida Sans";
+      font-size: 50px;
+      font-style: normal;
+      font-weight: 800;
+      color: black;
+      text-align: center;
+      opacity: 1px;
+    }
+
+    .button {
+      background-color: palegreen;
+      border-radius: 10px;
+      border: none;
+      color: white;
+      padding: 16px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      transition-duration: 0.4s;
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, 50%);
+      -ms-transform: translate(-50%, -50%);
+    }
+
+    .button1 {
+      background-color: white;
+      color: black;
+      border: 2px solid white;
+    }
+
+    .button1:hover {
+      background-color: yellow;
+      color: black;
+    }
+  </style>
+  </head>
+  <body>
+    <img src="{{ url_for('static', filename='logonew.jpg') }}" width="250px" height="100px" />
+    <!--<img src="..\Images\logonew.jpg" ; width="250px" ; height="100px" />-->
+    <div>
+      <h1>WELCOME TO VRKSHA!</h1>
+      <!--<a href="..\Templates\Predict3.html">-->
+        <a href="{{ url_for('render_predict') }}">
+      <button class="button button1">Predict</button>
+      </a>
+    </div>
+    <script>
+      document.getElementById("uploadImageButton").onclick = function() {
+        // Redirect to the /predict route (Predict5.html)
+        window.location.href = "/predict";
+      };
+    </script>
+  </body>
+</html>

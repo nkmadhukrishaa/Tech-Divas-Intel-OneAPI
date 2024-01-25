@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Remedies</title>
+    <link rel="icon" type="image/jpg" href="../static/leaves new.jpg" />
+  </head>
+
+  <style>
+    body {
+      background-image: url("../static/Background.jpg");
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+
+    img {
+      border-radius: 25px;
+    }
+
+    h4 {
+      padding-top: 10px;
+      padding-bottom: 50px;
+      font-family: "Lucida Sans";
+      font-size: 45px;
+      font-style: normal;
+      font-weight: 800;
+      color: black;
+      text-align: center;
+      opacity: 1px;
+    }
+
+    div {
+      background-color: palegreen;
+      width: fit-content;
+      border: 10px black;
+      border-radius: 10px;
+      padding: 20px 20px 20px 20px;
+      margin: 5px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      text-align: center;
+      opacity: 0.8;
+      font-weight: bold;
+    }
+
+    h6 {
+      font-family: "Lucida Sans";
+      font-size: 25px;
+      font-style: normal;
+      font-weight: 800;
+      color: black;
+      text-align: center;
+      opacity: 1px;
+    }
+  </style>
+
+  <body>
+    <img src="{{ url_for('static', filename='logonew.jpg') }}" ; width="250px" ; height="100px" />
+    <div>
+      <h4>
+        The following Remedies can be followed
+      </h4>
+      <h6>{{data[1]}}</h6>
+      <!--<h6>Ammonium sulphate</h6>
+      <h6>Potassium sulphate</h6>-->
+    </div>
+  </body>
+</html>

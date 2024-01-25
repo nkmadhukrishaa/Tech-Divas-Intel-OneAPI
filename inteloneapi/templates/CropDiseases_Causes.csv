@@ -1,0 +1,20 @@
+disease, causes
+BellPepper_BacterialSpot, A Bacterial disease caused due to bacteria which is developed due to moist weather and splattering rains and high humidity or persistent dew
+BellPepper_Healthy, No disease
+Maize_CercosporaLeafSpot, A Fungal disease caused due to dense planting and lack of air circulation and excessive heat
+Maize_CommonRust, A Fungal disease caused due to high relative humidities or dew or rain and cool temperatures 
+Maize_Healthy, No disease
+Maize_NorthernLeafBlight, A Fungal disease caused due to moderate temperatures with prolonged periods of moisture 
+Potato_EarlyBlight, A Fungal disease caused due to rain and fog and dew or irrigation
+Potato_Healthy, No disease
+Potato_LateBlight, A Fungal disease caused due to cool and moist conditions during high humidity and frequent rainfall
+Rice_BrownSpot, A Fungal disease caused due to warm and humid weather and due to excessive nitrogen
+Rice_Healthy, No disease
+Rice_Hispa, Caused by the larve of the rice hispa - a leaf beetle
+Rice_LeafBlast, A Fungal disease where the fungi overwinters in the rice
+Tomato_BacterialSpot, A Bacterial disease caused due to contaminated seed transplants and also due to warm and wet climates as well as due to green house gases
+Tomato_EarlyBlight, A Fungal disease caused due to poor air circulation or overhead irrigation or due to warm and humid weather or due to frequent rainfall
+Tomato_Healthy, No disease
+Tomato_LateBlight, A disease caused by a water mold
+Tomato_SeptoriaLeafSpot, A Fungal disease caused due to mid-summer rain storms as they overwinters
+Tomato_YellowLeafCurlVirus, Vectored by a silverleaf whitefly 

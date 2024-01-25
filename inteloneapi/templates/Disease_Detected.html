@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Diseases Detected</title>
+    <link rel="icon" type="image/jpg" href="{{ url_for('static', filename='logonew.jpg') }}" />
+  </head>
+
+  <style>
+    body {
+      background-image: url("../static/Background.jpg");
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+
+    img {
+      border-radius: 25px;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 50%;
+      top: 50%;
+      left: 50%;
+      position: absolute;
+      border-radius: 10px;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      background-color: palegreen;
+      opacity: 0.8;
+    }
+
+    th {
+      padding: 10px 10px 10px 10px;
+      text-align: center;
+      border-bottom: 1px;
+      font-family: "Lucida Sans";
+      font-size: 35px;
+    }
+
+    td {
+      padding: 10px 10px 10px 10px;
+      text-align: center;
+      border-bottom: 1px;
+      font-family: "Lucida Sans";
+      font-size: 25px;
+    }
+
+    tr:hover {
+      background-color: yellow;
+    }
+  </style>
+
+  <body>
+    <img src="{{ url_for('static', filename='logonew.jpg') }}" ; width="250px" ; height="100px" />
+    <table>
+      <tr>
+        <th>Disease</th>
+        <th>Causes</th>
+      </tr>
+      <tr>
+        <td>{{ data[0] }}</td>
+        <td>{{ data[1] }}</td>
+      </tr>
+    </table>
+  </body>
+</html>
