@@ -1,20 +1,20 @@
 ## TITLE:  
 
-Vrksha-An ML based tool to assist the Farmers of India in Crop Disease Detection 
+Vrksha - An ML based tool to assist the Farmers of India in Crop Disease Detection 
 
  
 
 ## REQUIREMENTS: 
 
--Intel; onednn-cpu-gomp,Jupyter Notebook 
+- Intel; onednn-cpu-gomp,Jupyter Notebook 
 
--Flask-Python's web framework 
+- Flask-Python's web framework 
 
--Internet connection 
+- Internet connection 
 
--Tensorflow-keras 
+- Tensorflow-keras 
 
--Matplotlib-to plot the data assessed 
+- Matplotlib-to plot the data assessed 
 
  
 
@@ -58,48 +58,48 @@ still takes some time to reach the farmers. So, this tool can be used by the far
  
 Vrksha is a tool that aids farmers at the initial level itself to solve these issues. 
 
--The farmers will be able to know what kind of disease is caused. 
+- The farmers will be able to know what kind of disease is caused. 
 
--Knowing the causes for the disease will help the farmers to make changes to their environment for the betterment of plantation of crops. 
+- Knowing the causes for the disease will help the farmers to make changes to their environment for the betterment of plantation of crops. 
 
--The solution also suggests the farmers what kind of fertilizers can be used (in terms of mineral) to improve the health of the plant. It also suggests the fertilizers that can be avoided (in terms of minerals).  
+- The solution also suggests the farmers what kind of fertilizers can be used (in terms of mineral) to improve the health of the plant. It also suggests the fertilizers that can be avoided (in terms of minerals).  
 
--The specific solution helps them to improve the plant’s health and so, they can buy only the required fertilizers. 
+- The specific solution helps them to improve the plant’s health and so, they can buy only the required fertilizers. 
 
--In future, they will have an idea of what minerals and environment conditions are required for a good plantation. 
+- In future, they will have an idea of what minerals and environment conditions are required for a good plantation. 
 
 
 ## USER MANUAL: 
 
--For easy access, a login page is not provided. 
+- For easy access, a login page has not been provided. 
 
--Firstly, the image of the disease is required. So, a photo of the infected crop is to be taken. An image of the leaf would be appreciated. 
+- Firstly, the image of the disease is required. So, a photo of the infected crop is to be taken. An image of the leaf would be appreciated. 
 
--The Vrksha tool is opened and the ‘Predict’ button is to be clicked. Our webpage will be directed to the ‘Predict’ page. 
+- The Vrksha tool is opened and the ‘Predict’ button is to be clicked. Our webpage will be directed to the ‘Predict’ page. 
 
--The ‘Insert Image’ button is to be clicked to insert the image. 
+- The ‘Insert Image’ button is to be clicked to insert the image. 
 
--The diseases are detected using the ML tools. 
+- The diseases are detected using the ML tools. 
 
--The results of the detections will be displayed in the ‘Results’ page. 
+- The results of the detections will be displayed in the ‘Results’ page. 
 
--If the ‘Diseases detected’ button is clicked, the disease which has infected the crop is displayed. 
+- If the ‘Diseases detected’ button is clicked, the disease which has infected the crop is displayed. 
 
--If the ‘Remedies’ button is clicked, the remedies that can be undertaken to improve the health of the crop is displayed. 
+- If the ‘Remedies’ button is clicked, the remedies that can be undertaken to improve the health of the crop is displayed. 
 
  
 
 ## TECHNICAL WORKING: 
 
- -The entire project works on the data set of 25027 image files belonging to 19 classes of crop diseases. 
+- The entire project works on the data set of 25027 image files belonging to 19 classes of crop diseases. 
 
--The data set of 783 images is split into 626 train files, 78 validation files and 79 test files. 
+- The data set of 783 images is split into 626 train files, 78 validation files and 79 test files. 
 
--The image uploaded by the user is compared with the images and accurate predictions are made using TensorFlow keras to help detect the Crop Disease. 
+- The image uploaded by the user is compared with the images and accurate predictions are made using TensorFlow keras to help detect the Crop Disease. 
 
--This web application works on Webpages designed using HTML, CSS and JavaScript. 
+- This web application works on Webpages designed using HTML, CSS and JavaScript. 
 
--The web framework behind this web application is Python’s Flask. 
+- The web framework behind this web application is Python’s Flask. 
 
 
 ## SCREENSHOTS OF WEB APPLICATION:
