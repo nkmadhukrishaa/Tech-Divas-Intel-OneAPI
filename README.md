@@ -1,10 +1,10 @@
-## Title:  
+## TITLE:  
 
-Vrskha-An ML based tool to assist the Farmers of India in Crop Disease Detection 
+Vrksha-An ML based tool to assist the Farmers of India in Crop Disease Detection 
 
  
 
-## Requirements: 
+## REQUIREMENTS: 
 
 -Intel; onednn-cpu-gomp,Jupyter Notebook 
 
@@ -18,7 +18,7 @@ Vrskha-An ML based tool to assist the Farmers of India in Crop Disease Detection
 
  
 
-## Purpose: 
+## PURPOSE: 
 
 Farming is one of the major sources of livelihood in India and a major population consist of farmers. Just as populous farmers are, crop diseases are so too among crops.
 Crops being affected by disease can prove fatal to the crop as well as lead to monetary loss. If left undetected, it can spread to many crops and prove fatal to them as well. To provide a solution, we have 
@@ -26,7 +26,7 @@ developed a crop disease detection app which detects the disease when a photo of
 
  
 
-## Benefits of the project: 
+## BENEFITS OF THE PROJECT: 
 <b>Patiala, Punjab: </b>  
 
 The tomato farmers in the villages of Sanaur block of Patiala district are awaiting compensation for the damage to their crop due to blight disease even as the district administration officials claimed that 
@@ -69,7 +69,7 @@ Vrksha is a tool that aids farmers at the initial level itself to solve these is
 -In future, they will have an idea of what minerals and environment conditions are required for a good plantation. 
 
 
-## User Manual: 
+## USER MANUAL: 
 
 -For easy access, a login page is not provided. 
 
@@ -89,7 +89,7 @@ Vrksha is a tool that aids farmers at the initial level itself to solve these is
 
  
 
-## Technical Working: 
+## TECHNICAL WORKING: 
 
  -The entire project works on the data set of 25027 image files belonging to 19 classes of crop diseases. 
 
@@ -102,7 +102,7 @@ Vrksha is a tool that aids farmers at the initial level itself to solve these is
 -The web framework behind this web application is Python’s Flask. 
 
 
-## Screenshots of web application
+## SCREENSHOTS OF WEB APPLICATION:
 
 <b>Home page: </b>
 
