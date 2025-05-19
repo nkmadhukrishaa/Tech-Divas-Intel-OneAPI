@@ -131,3 +131,11 @@ Vrksha is a tool that aids farmers at the initial level itself to solve these is
 <b>Remedies and Tips: </b>
 
 ![remedies](https://github.com/C-V-Malavika/Tech-Divas/assets/34850110/e7a669a1-cb1e-476c-87f4-63556aa95b39)
+
+## TECH TEAM:
+
+- C V Malavika
+- V Chinmaiyee
+- N K Madhukrishaa
+
+Sophomores at Sri Sivasubramaniya Nadar College of Engineering
